@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import Storyblok from '../lib/storyblok'; // Make sure you have Storyblok API setup
+import ReactMarkdown from 'react-markdown';
 
 export default function DynamicPage({ story }) {
   const router = useRouter();
@@ -20,7 +21,9 @@ export async function getStaticProps({ params }) {
   let slug = params.slug ? params.slug.join('/') : 'home';
 
   try {
-    let { data } = await Storyblok.get(`cdn/stories/${slug}`);
+    let { data } = await Storyblok.get(`cdn/stories/${slug}`, {
+      version: 'draft'
+    });
 
     return {
       props: {
