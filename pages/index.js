@@ -24,7 +24,7 @@ export default function Index() {
       setQuestion('');
     } catch (error) {
       console.error('Error calling API:', error);
-      // For demo purposes, add a mock response
+   
       setChat([...chat, { q: question, a: 'This is a demo response since the API is not available.' }]);
       setQuestion('');
     }
@@ -41,7 +41,7 @@ export default function Index() {
 
   return (
     <div className="flex min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-      {/* Main Content Area */}
+      {}
       <div className="w-2/3 p-8 lg:p-12">
         <div className="max-w-4xl">
           <div className="mb-8">
@@ -95,7 +95,7 @@ export default function Index() {
         </div>
       </div>
 
-      {/* Chat Sidebar */}
+      {}
       <div className="w-1/3 bg-white border-l border-slate-200 flex flex-col shadow-xl">
         <div className="p-6 border-b border-slate-200 bg-gradient-to-r from-blue-50 to-indigo-50">
           <div className="flex items-center mb-2">
@@ -105,7 +105,7 @@ export default function Index() {
           <p className="text-sm text-gray-600">Ask me anything about Storyblok!</p>
         </div>
 
-        {/* Chat Messages */}
+        {}
         <div className="flex-1 p-4 overflow-y-auto">
           <div className="space-y-4">
             {chat.length === 0 ? (
@@ -116,7 +116,7 @@ export default function Index() {
             ) : (
               chat.map((c, i) => (
                 <div key={i} className="space-y-3">
-                  {/* User Question */}
+                  {}
                   <div className="flex items-start space-x-3">
                     <div className="bg-blue-100 rounded-full p-2 flex-shrink-0">
                       <User className="h-4 w-4 text-blue-600" />
@@ -126,7 +126,7 @@ export default function Index() {
                     </div>
                   </div>
 
-                  {/* Bot Answer */}
+                  {}
                   <div className="flex items-start space-x-3">
                     <div className="bg-green-100 rounded-full p-2 flex-shrink-0">
                       <Bot className="h-4 w-4 text-green-600" />
@@ -158,7 +158,7 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Input Area */}
+        {}
         <div className="p-4 border-t border-slate-200 bg-gray-50">
           <div className="flex space-x-2">
             <input
