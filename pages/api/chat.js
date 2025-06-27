@@ -7,7 +7,18 @@ export default async function handler(req, res) {
   const { question } = req.body;
   const faqs = await getFaqContent();
 
-  const customQA = `**Who designed you?**:\nI was designed by Sunder Kumar, who crafted my interface and user experience to assist you effectively.`;
+  const customQA = [
+  {
+    question: 'Who designed you?',
+    answer: 'I was designed by Sunder Kumar, who crafted my interface and user experience to assist you effectively.',
+  },
+  {
+    question: 'Who is Sunder Kumar?',
+    answer: 'He is a passionate Computer Science Engineer with a strong foundation in software development, automation, and modern web technologies.',
+  },
+];
+
+
 
   const context = `${customQA}\n\n${faqs.map(f => `**${f.title}**:\n${f.body}`).join('\n\n')}`;
 
