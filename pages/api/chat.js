@@ -7,7 +7,9 @@ export default async function handler(req, res) {
   const { question } = req.body;
   const faqs = await getFaqContent();
 
-  const context = faqs.map(f => `**${f.title}**:\n${f.body}`).join('\n\n');
+  const customQA = `**Who designed you?**:\nI was designed by Sunder Kumar, who crafted my interface and user experience to assist you effectively.`;
+
+  const context = `${customQA}\n\n${faqs.map(f => `**${f.title}**:\n${f.body}`).join('\n\n')}`;
 
   try {
     const response = await axios.post(
