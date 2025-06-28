@@ -7,7 +7,8 @@ export default async function handler(req, res) {
   const { question } = req.body;
   const faqs = await getFaqContent();
 
-  const context = `${customQA}\n\n${faqs.map(f => `**${f.title}**:\n${f.body}`).join('\n\n')}`;
+  const context = faqs.map(f => `**${f.title}**:\n${f.body}`).join('\n\n');
+
 
   try {
     const response = await axios.post(
