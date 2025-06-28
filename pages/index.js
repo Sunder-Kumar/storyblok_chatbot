@@ -100,7 +100,7 @@ export default function Index() {
         <div className="p-6 border-b border-slate-200 bg-gradient-to-r from-blue-50 to-indigo-50">
           <div className="flex items-center mb-2">
             <Bot className="h-6 w-6 text-blue-600 mr-3" />
-            <h2 className="text-xl font-semibold text-gray-900">🤖 Storyblok AI Chatbot</h2>
+            <h2 className="text-xl font-semibold text-gray-900"> Storyblok AI Chatbot</h2>
           </div>
           <p className="text-sm text-gray-600">Ask me anything about Storyblok!</p>
         </div>
