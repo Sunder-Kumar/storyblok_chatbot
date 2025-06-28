@@ -4,12 +4,12 @@
 
 ## What I Built
 
-I created an **AI-powered support chatbot** that integrates seamlessly into the **Storyblok Visual Editor**. It provides **real-time answers to FAQs** and content-related questions directly within the CMS interface — making it easier for content editors to work without switching tabs.
+I created an **AI powered support chatbot** that integrates seamlessly into the **Storyblok Visual Editor**. It provides **real time answers to FAQs** and content related questions directly within the CMS interface making it easier for content editors to work without switching tabs.
 
-The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mistral 7B** to generate accurate, markdown-formatted responses in a conversational style.
+The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mistral 7B** to generate accurate, markdown formatted responses in a conversational style.
 
 # Demo
-[Link!](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
+[Link(https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
 
 # Screenshots
 
