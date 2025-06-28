@@ -10,7 +10,8 @@ export default function Preview() {
     async function fetchFaqs() {
       try {
         const res = await fetch(
-          `https://api.storyblok.com/v2/cdn/stories?version=published&starts_with=faq/&token=${process.env.NEXT_PUBLIC_STORYBLOK_TOKEN}`
+        //   `https://api.storyblok.com/v2/cdn/stories?version=published&starts_with=faq/&token=${process.env.NEXT_PUBLIC_STORYBLOK_TOKEN}`
+            `https://api.storyblok.com/v2/cdn/stories?cv=1751123095&token=${process.env.NEXT_PUBLIC_STORYBLOK_TOKEN}&version=published`
         );
         const data = await res.json();
 
