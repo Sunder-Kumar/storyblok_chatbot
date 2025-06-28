@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Storyblok Chatbot
 
-## Getting Started
+*This is a submission for the [Storyblok Challenge](https://dev.to/challenges/storyblok)*
 
-First, run the development server:
+## What I Built
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I created an **AI-powered support chatbot** that integrates seamlessly into the **Storyblok Visual Editor**. It provides **real-time answers to FAQs** and content-related questions directly within the CMS interface — making it easier for content editors to work without switching tabs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mistral 7B** to generate accurate, markdown-formatted responses in a conversational style.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Demo
+[Demo link!](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Screenshots**  
+<!-- Share a video demo of your project (preferred) or include screenshots here. -->
+![Chatbot UI Screenshot](./screenshots/Demo (2))
+![Visual Editor Integration](./screenshots/storyblok-sidebar.png)
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Frontend: React, Next.js, TailwindCSS
+- CMS: Storyblok (Headless CMS)
+- AI Integration: OpenRouter API (Mistral 7B)
+- Deployment: Vercel
+- Markdown Support: react-markdown
+- UI Elements: Lucide Icons, Styled Input/Scroll components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### How I Used Storyblok
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Used Storyblok to manage FAQ content dynamically via the `cdn/stories` API.
+2. Integrated my chatbot into the Visual Editor using a custom sidebar plugin.
+3. Built a wrapper HTML + iframe that loads the chatbot directly in the sidebar UI.
+4. The chatbot fetches fresh FAQ entries from Storyblok for up-to-date, context-aware answers.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
