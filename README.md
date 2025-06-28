@@ -4,17 +4,22 @@
 
 ## What I Built
 
-I created an **AI-powered support chatbot** that integrates seamlessly into the **Storyblok Visual Editor**. It provides **real-time answers to FAQs** and content-related questions directly within the CMS interface — making it easier for content editors to work without switching tabs.
+I created an **AI powered support chatbot** that integrates seamlessly into the **Storyblok Visual Editor**. It provides **real time answers to FAQs** and content related questions directly within the CMS interface making it easier for content editors to work without switching tabs.
 
-The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mistral 7B** to generate accurate, markdown-formatted responses in a conversational style.
+The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mistral 7B** to generate accurate, markdown formatted responses in a conversational style.
 
 # Demo
-[Demo link!](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
+[Link(https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
 
-**Screenshots**  
-<!-- Share a video demo of your project (preferred) or include screenshots here. -->
-![Chatbot UI Screenshot](./screenshots/Demo (2))
-![Visual Editor Integration](./screenshots/storyblok-sidebar.png)
+# Screenshots
+
+## Interface
+![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(1).png)
+## How to login in Storyblok?
+![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(2).png)
+## Who designed you?
+![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Owner.png)
+
 
 ## Tech Stack
 
@@ -25,7 +30,7 @@ The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mis
 - Markdown Support: react-markdown
 - UI Elements: Lucide Icons, Styled Input/Scroll components
 
-### How I Used Storyblok
+## How I Used Storyblok
 
 1. Used Storyblok to manage FAQ content dynamically via the `cdn/stories` API.
 2. Integrated my chatbot into the Visual Editor using a custom sidebar plugin.
