@@ -9,8 +9,8 @@ I created an **AI powered support chatbot** that integrates seamlessly into the 
 The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mistral 7B** to generate accurate, markdown formatted responses in a conversational style.
 
 # Demo
-[Link(https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
-
+[https://storyblok-chatbot-sunder-kumars-projects.vercel.app](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
+#
 **Storyblok Space:** 
 [View Published FAQ Content](https://api.storyblok.com/v2/cdn/stories?version=published&token=EINoQ8geZizD6KGiXpvReAtt)
 This public API exposes only **published content**, using Storyblok’s CDN delivery token. It is safe to share and powers the chatbot’s real time responses.
