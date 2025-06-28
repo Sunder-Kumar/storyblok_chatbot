@@ -18,12 +18,14 @@ This public API exposes only **published content**, using Storyblok’s CDN deli
 
 # Screenshots
 
-## Interface
+## Chatbot Interface
 ![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(1).png)
 ## How to login in Storyblok?
 ![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(2).png)
 ## Who designed you?
 ![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Owner.png)
+## Stoyblok Preview
+![Storyblok Preview](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Storyblok_View.png)
 
 
 ## Tech Stack
