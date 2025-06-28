@@ -11,7 +11,7 @@ The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mis
 # Demo
 [Link!](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
 
-**Screenshots**  
+# Screenshots
 
 ## Interface
 ![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(1).png)
@@ -30,7 +30,7 @@ The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mis
 - Markdown Support: react-markdown
 - UI Elements: Lucide Icons, Styled Input/Scroll components
 
-### How I Used Storyblok
+## How I Used Storyblok
 
 1. Used Storyblok to manage FAQ content dynamically via the `cdn/stories` API.
 2. Integrated my chatbot into the Visual Editor using a custom sidebar plugin.
