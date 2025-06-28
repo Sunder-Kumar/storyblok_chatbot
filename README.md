@@ -40,6 +40,6 @@ This public API exposes only **published content**, using Storyblok’s CDN deli
 1. Used Storyblok to manage FAQ content dynamically via the `cdn/stories` API.
 2. Integrated my chatbot into the Visual Editor using a custom sidebar plugin.
 3. Built a wrapper HTML + iframe that loads the chatbot directly in the sidebar UI.
-4. The chatbot fetches fresh FAQ entries from Storyblok for up-to-date, context-aware answers.
+4. The chatbot fetches fresh FAQ entries from Storyblok for up to date, context aware answers.
 
 
