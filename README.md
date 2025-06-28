@@ -9,11 +9,12 @@ I created an **AI-powered support chatbot** that integrates seamlessly into the 
 The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mistral 7B** to generate accurate, markdown-formatted responses in a conversational style.
 
 # Demo
-[Demo link!](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
+[Link!](https://storyblok-chatbot-sunder-kumars-projects.vercel.app/)
 
 **Screenshots**  
 <!-- Share a video demo of your project (preferred) or include screenshots here. -->
-![Chatbot UI Screenshot](./screenshots/Demo (2))
+![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(2).png)
+[Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(2).png)
 ![Visual Editor Integration](./screenshots/storyblok-sidebar.png)
 
 ## Tech Stack
