@@ -14,8 +14,8 @@ The chatbot fetches **live FAQ data from Storyblok** and uses **OpenRouter's Mis
 **Screenshots**  
 <!-- Share a video demo of your project (preferred) or include screenshots here. -->
 ![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(2).png)
-[Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(2).png)
-![Visual Editor Integration](./screenshots/storyblok-sidebar.png)
+![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Owner.png)
+![Chatbot UI Screenshot](https://github.com/Sunder-Kumar/storyblok_chatbot/blob/main/screenshots/Demo%20(1).png)
 
 ## Tech Stack
 
